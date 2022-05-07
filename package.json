@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "@fitbit/sdk": "~6.0.0"
+    "@fitbit/sdk": "~4.1.0",
+    "@fitbit/sdk-cli": "^1.7.3"
   },
   "fitbit": {
     "appUUID": "b36d8ea6-c803-45fe-ad34-91dbe8d08e89",
@@ -18,8 +19,7 @@
       "access_sleep"
     ],
     "buildTargets": [
-      "atlas",
-      "vulcan"
+      "mira"
     ],
     "i18n": {
       "en-US": {
@@ -27,5 +27,8 @@
       }
     },
     "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build"
   }
 }

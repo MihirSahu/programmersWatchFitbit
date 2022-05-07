@@ -1,5 +1,8 @@
 # programmersWatchFitbit
 
+## Notes
+- This is my (Mihir Sahu) forked version to work with the Versa 2
+
 Inspired by a clockface with the same name from Facer, made by user Lobby: https://www.facer.io/watchface/cUe0O8YjmA
 I added more features:
 - Wind speed

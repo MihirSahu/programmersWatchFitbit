@@ -135,7 +135,7 @@ function getOWM(){
 function getOWMWeather(position,apiKey){
   let url='';
   if(!apiKey){
-    if(weatheEnv.OWMApiKey){
+    if(weatherEnv.OWMApiKey){
       apiKey=weatherEnv.OWMApiKey;
       getOWMWeather(position,apiKey);
     }
